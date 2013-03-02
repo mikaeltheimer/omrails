@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
+gem 'cocaine', '0.3.2'
 
 group :production do
   gem 'pg'
