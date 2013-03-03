@@ -61,5 +61,7 @@ module Omrails
 
     # required for Devise on Heroku
     config.assets.initialize_on_precompile = false
+
+    require 'paperclip'
   end
 end
